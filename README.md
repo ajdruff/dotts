@@ -36,7 +36,7 @@ To take full advantage of dotts and have it save your configuration to a remote 
 >Don't like using `dotts` as your command and want to use something more intuitive like `config` ? 
 >  try this:
 >
->        curl -o- https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh install | APP_NAME=config bash  -s -- install 
+>        curl -o- https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh | APP_NAME=config3 bash  -s -- install 
 
 
 
