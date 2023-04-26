@@ -25,12 +25,6 @@ The beauty of dotts is that unlike other schemes to save your configuration file
 
 To take full advantage of dotts and have it save your configuration to a remote git repository, you'll need to create a github repo to hold your dotts files.
 
-To install dotts: 
-
-    curl -o- https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh install | bash 
-
-
-
 
 ## Quick Start
 
