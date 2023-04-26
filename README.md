@@ -30,13 +30,13 @@ To take full advantage of dotts and have it save your configuration to a remote 
 
 1. install
 
-        curl -o- https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh install | bash 
+        curl -o- https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh | bash -s -- install
 
 >This will install dotts so that you can use it with the default `dotts` command.
 >Don't like using `dotts` as your command and want to use something more intuitive like `config` ? 
 >  try this:
 >
->        curl -o- APP_NAME=config https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh install | bash 
+>        curl -o- https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh install | APP_NAME=config bash  -s -- install 
 
 
 
@@ -59,6 +59,6 @@ To take full advantage of dotts and have it save your configuration to a remote 
 
 # Uninstall
 
-    curl -o- https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh uninstall | bash 
+    curl -o- https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh | bash -s -- uninstall
 
 
