@@ -30,12 +30,13 @@ To take full advantage of dotts and have it save your configuration to a remote 
 
 1. install
 
-    curl -o- https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh install | bash 
+        curl -o- https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh install | bash 
 
 >This will install dotts so that you can use it with the default `dotts` command.
 >Don't like using `dotts` as your command and want to use something more intuitive like `config` ? 
-
-    curl -o- APP_NAME=config https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh install | bash 
+>  try this:
+>
+>        curl -o- APP_NAME=config https://raw.githubusercontent.com/ajdruff/dotts/master/dotts.sh install | bash 
 
 
 
@@ -43,17 +44,17 @@ To take full advantage of dotts and have it save your configuration to a remote 
 2. create a github repository to hold your configuration
 
 
-    gh repo create my-dotts --private
-    dotts remote add origin git@github.com:ACCOUNT_NAME/my-dotts.git
-    dotts push -u origin master
+        gh repo create my-dotts --private
+        dotts remote add origin git@github.com:ACCOUNT_NAME/my-dotts.git
+        dotts push -u origin master
 
 
 
 3. add your first file
 
-    dotts add ~/.bashrc
-    dotts commit -m 'add .bashrc'
-    dotts push
+        dotts add ~/.bashrc
+        dotts commit -m 'add .bashrc'
+        dotts push
 
 
 # Uninstall
