@@ -4,7 +4,7 @@ dotts is an implementation of a strategy to manage configuration files, as descr
 
 >"No extra tooling, no symlinks, files are tracked on a version control system, you can use different branches for different computers, you can replicate you configuration easily on new installation." --StreakyCobra
 
-Since dotts is really just a fancy alias for git configured to use your home ~/ directory as its working directory and a local bare repo. 
+Since dotts is really just a fancy alias for git configured to use your home ~/ directory as its working directory and a local bare repo, you use it just as you use git.
 
 For example, to commit any files in your home directory, simply add and commit, just as you would for git.
 
