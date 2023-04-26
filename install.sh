@@ -22,6 +22,5 @@ echo '.dotts' > $HOME/.gitignore
     
 dotts add  $HOME/.gitignore
 dotts commit -m 'initial commit'
-dotts push -u origin master
 
 
