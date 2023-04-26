@@ -1,10 +1,10 @@
 # dotts
 
-dotts is an implementation of a strategy to manage configuration files, as described in a Hacker News [comment](https://news.ycombinator.com/item?id=11071754) by user StreakyCobra and further refined by [Nicola Paolucci](https://www.atlassian.com/git/tutorials/dotfiles).
+dotts is an implementation of a strategy to manage configuration files, as described in a Hacker News [comment](https://news.ycombinator.com/item?id=11071754) by user StreakyCobra ([Fabien Dubosson](https://github.com/StreakyCobra)) and further refined by [Nicola Paolucci](https://www.atlassian.com/git/tutorials/dotfiles).
 
-dotts plagiarizes much of Nicola's code, packaged into a single easy to use file. 
+>"No extra tooling, no symlinks, files are tracked on a version control system, you can use different branches for different computers, you can replicate you configuration easily on new installation." --StreakyCobra
 
-To use dotts, think of it as just an alias for git but configured to use your home ~/ directory as its working directory. 
+Since dotts is really just a fancy alias for git configured to use your home ~/ directory as its working directory and a local bare repo. 
 
 For example, to commit any files in your home directory, simply add and commit, just as you would for git.
 
