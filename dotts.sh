@@ -22,8 +22,8 @@ EOF
 chmod u+x $HOME/bin/dotts.sh
 ln -s $HOME/bin/dotts.sh ${COMMAND}
 
-git init --bare $HOME/.dotts
-git config init.defaultBranch main
+${COMMAND} init --bare
+${COMMAND}  config init.defaultBranch main
 ${COMMAND} checkout  >/dev/null 2>&1
 
 ${COMMAND} config status.showUntrackedFiles no
