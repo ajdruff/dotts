@@ -23,6 +23,7 @@ chmod u+x $HOME/bin/dotts.sh
 ln -s $HOME/bin/dotts.sh ${COMMAND}
 
 git init --bare $HOME/.dotts
+git config init.defaultBranch master
 ${COMMAND} checkout  -b master  >/dev/null 2>&1
 
 ${COMMAND} config status.showUntrackedFiles no
